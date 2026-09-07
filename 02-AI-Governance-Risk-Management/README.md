@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project presents an AI Governance and Risk Management Program developed for a fictional organization, NovaTech Solutions. The project focuses on identifying and managing cybersecurity, privacy, compliance, and operational risks associated with the use of generative AI across an organization.
+For this project, I created an AI Governance and Risk Management Program for a fictional company called NovaTech Solutions. I wanted to understand how an organization could manage the cybersecurity, privacy, compliance, and operational risks that come with employees using generative AI.
 
-The project applies concepts from the NIST AI Risk Management Framework (AI RMF) and NIST Cybersecurity Framework (CSF) 2.0 to develop a structured approach to AI governance.
+I identified and assessed six AI risks, developed proposed controls and risk treatments, created an AI Governance & Acceptable Use Policy, and connected the program to the NIST AI Risk Management Framework (AI RMF) and NIST Cybersecurity Framework (CSF) 2.0.
 
 ## Organization Scenario
 
@@ -17,11 +17,11 @@ NovaTech Solutions is a fictional organization with approximately 500 employees 
 - Customer Support
 - Software Development
 
-Employees increasingly use generative AI tools for business activities, creating the need for formal governance, risk management, and acceptable-use requirements.
+In this scenario, employees are increasingly using generative AI for different business activities, but the organization does not yet have a mature process for approving AI tools, handling data in AI systems, or monitoring AI use.
 
 ## Key AI Risks Assessed
 
-Six major AI risks were evaluated:
+I assessed six major AI risks:
 
 - Sensitive Data Disclosure
 - Inaccurate AI Output
@@ -30,18 +30,18 @@ Six major AI risks were evaluated:
 - Intellectual Property Exposure
 - AI-Generated Content Contamination
 
-A 5x5 likelihood and impact methodology was used to evaluate inherent and estimated residual risk.
+I used a 5x5 likelihood and impact methodology to assess inherent risk and estimate residual risk after proposed controls.
 
 ## Controls & Governance Measures
 
-The proposed program includes:
+Based on the risks I identified, I developed controls and governance requirements involving:
 
 - Approved AI tool governance
 - Data Loss Prevention (DLP)
 - AI-use monitoring
 - Human review and validation
 - Privacy and legal review
-- Secure development and code-review requirements
+- Secure development and code review
 - Employee AI-use requirements and training
 - Risk monitoring and management reporting
 
@@ -49,16 +49,16 @@ The proposed program includes:
 
 ### NIST AI Risk Management Framework
 
-The project applies the four AI RMF functions:
+I used the four AI RMF functions to organize the AI governance approach:
 
-- GOVERN
-- MAP
-- MEASURE
-- MANAGE
+- **GOVERN** - Policies, responsibilities, and AI tool approval
+- **MAP** - AI use cases, data, affected people, systems, and potential impacts
+- **MEASURE** - Inherent and residual AI risk assessment
+- **MANAGE** - Risk treatments, controls, monitoring, and remaining-risk decisions
 
 ### NIST Cybersecurity Framework 2.0
 
-AI governance and security activities were also connected to the six CSF 2.0 functions:
+I also connected the AI risks and controls to the six CSF 2.0 functions:
 
 - GOVERN
 - IDENTIFY
@@ -69,15 +69,15 @@ AI governance and security activities were also connected to the six CSF 2.0 fun
 
 ## Project Deliverables
 
-- **AI Governance & Risk Management Program** — Full risk assessment, risk register, proposed controls, framework mappings, recommendations, and monitoring approach.
-- **AI Governance & Acceptable Use Policy** — Proposed organizational requirements for responsible and secure use of AI.
+- **AI Governance & Risk Management Program** - Risk assessment, risk register, proposed controls, NIST framework mappings, recommendations, and monitoring approach.
+- **AI Governance & Acceptable Use Policy** - Proposed requirements for responsible and secure AI use within NovaTech.
 
 ## What I Learned
 
-Before this project, I understood GRC mainly as policy writing and compliance checklists. Through this project, I learned that AI governance requires understanding how AI is actually used across an organization, identifying the risks created by those use cases, and designing controls that are practical for real business teams.
+Before this project, I understood GRC mainly as policy writing and compliance checklists. Through this project, I learned that AI governance also requires understanding how AI is actually being used, identifying the risks created by those use cases, and designing controls that make sense for the business.
 
-I also learned how to assess risks using likelihood and impact, distinguish between inherent and residual risk, and select controls that meaningfully reduce risk rather than simply documenting it. Applying the NIST AI RMF and NIST CSF 2.0 also helped me understand how frameworks can turn risk-management concepts into a structured governance approach.
+I also learned how to assess inherent and residual risk, select appropriate controls, think about control ownership and evidence, and use NIST frameworks to organize a governance program.
 
 ---
 
-**Portfolio Note:** NovaTech Solutions is a fictional organization created for this educational cybersecurity GRC portfolio project. Controls described in this project are proposed controls, and residual risk ratings are estimates rather than results from a production implementation or control test.
+**Portfolio Note:** NovaTech Solutions is a fictional organization created for this educational cybersecurity GRC portfolio project. The controls are proposed controls, and the residual risk ratings are estimates rather than results from a production implementation or control test.
